@@ -13,13 +13,6 @@ import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
-/**
- * Created by IntelliJ IDEA.
- * User: ndSenses
- * Date: 6/2/2021
- * Time: 4:34 PM
- * Project: adapter-vasp
- **/
 public class HttpClientPool {
     private static final PoolingHttpClientConnectionManager POOLING_CONN_MANAGER = new PoolingHttpClientConnectionManager();
     private static final CloseableHttpClient client = HttpClients
