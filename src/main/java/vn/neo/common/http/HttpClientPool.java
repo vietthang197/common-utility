@@ -13,7 +13,7 @@ import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 /**
- * @author acer on 12/7/2021
+ * @author thanglv on 12/7/2021
  * @project common-utility
  */
 public class HttpClientPool {
