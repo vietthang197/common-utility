@@ -12,7 +12,10 @@ import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
-
+/**
+ * @author acer on 12/7/2021
+ * @project common-utility
+ */
 public class HttpClientPool {
     private static final PoolingHttpClientConnectionManager POOLING_CONN_MANAGER = new PoolingHttpClientConnectionManager();
     private static final CloseableHttpClient client = HttpClients
